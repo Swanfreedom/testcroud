@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BMSDETAILSDB" Class="BMSDETAILSDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPPY-SWAN;Initial Catalog=BMSDETAILSDB;Integrated Security=True" SettingsObjectName="SwanCrudProject.Properties.Settings" SettingsPropertyName="BMSDETAILSDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BMSDETAILS" Member="BMSDETAILs">
+    <Type Name="BMSDETAIL">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="phoneno" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="emailid" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="location" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
