@@ -64,7 +64,7 @@ namespace SwanCrudProject
                 b.location = locationcomboBox.Text;
                 db.BMSDETAILs.InsertOnSubmit(b); // data save on linq 
                 db.SubmitChanges(); // from permently infromation save to use Submitchanges
-                MessageBox.Show("Employee Infromation inserted Successfully Done!!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Employee Infromation inserted Successfully Done!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 ClearTextBoxes();
                 BindGridView(); 
             }
